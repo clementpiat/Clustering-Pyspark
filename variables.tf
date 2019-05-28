@@ -51,7 +51,7 @@ variable "bootstrap_name" {
 }
 
 variable "bootstrap_uri" {
-  default = "s3://seedingflow-usecase/install_my_librairies.sh"
+  default = "s3://name_of_your_bucket/install_my_librairies.sh"
 }
 
 variable "bootstrap_args" {
@@ -60,14 +60,14 @@ variable "bootstrap_args" {
 }
 
 variable "log_uri" {
-  default = "s3://seedingflow-usecase/"
+  default = "s3://name_of_your_bucket/"
 }
 
 variable "python_path" {
-  default = "s3://seedingflow-usecase/getClustersSpark.py"
+  default = "s3://name_of_your_bucket/getClustersSpark.py"
 }
 
 variable "python_args" {
-  default = ["s3://seedingflow-usecase/cases.json","s3://seedingflow-usecase/outputT.json"]
+  default = ["s3://name_of_your_bucket/cases.json","s3://name_of_your_bucket/outputT.json"]
   type    = "list"
 }
