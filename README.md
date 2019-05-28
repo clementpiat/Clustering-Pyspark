@@ -2,7 +2,7 @@
 
 
 
-## [clustering.py]
+## clustering.py
 
 
 Inputs : a json file path (works with a path towards an s3) towards a dataset we want to clusterize, a json file path which corresponds to where we want to store the ouput of the clustering (works also on a s3 path), and k the number of clusters we want to create
@@ -26,7 +26,7 @@ Here are the 3 main steps of this code / every thing is computed in a distribute
 
 
 
-## [terraform-as-emr-cluster]
+## terraform-as-emr-cluster
 
 The terraform code can launch the the clustering code on every dataset stored as a json in an s3 by deploying an EMR on which it wil run.
 
